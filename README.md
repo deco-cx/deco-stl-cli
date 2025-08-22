@@ -2,6 +2,9 @@
 
 Render 3D STL models as animated ASCII art directly in your terminal. This CLI parses binary or ASCII STL files, centers and scales the mesh, applies smoothed lighting, and continuously renders a rotating view with interactive light controls.
 
+![CleanShot 2025-08-22 at 17 42 45](https://github.com/user-attachments/assets/f50ca5a4-2311-4e88-be82-7a611e4196d6)
+
+
 ### Features
 - **Binary and ASCII STL support**: Automatically detects and parses both formats.
 - **Clean terminal animation**: Uses an alternate screen buffer and hidden cursor for flicker-minimized output.
@@ -11,6 +14,7 @@ Render 3D STL models as animated ASCII art directly in your terminal. This CLI p
 - **Simple CLI**: Just point it at an `.stl` file.
 
 ### Requirements
+
 - **Node.js**: v16+ recommended (works on macOS, Linux; Windows via compatible terminal/TTY).
 
 ### Getting Started
